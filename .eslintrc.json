@@ -4,9 +4,10 @@
     "es2021": true,
     "node": true
   },
+  "plugins": ["react", "@typescript-eslint/eslint-plugin"],
   "extends": [
     "plugin:react/recommended",
-    "standard-with-typescript",
+    "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
   "overrides": [],
@@ -15,7 +16,6 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react"],
   "rules": {
     "@typescript-eslint/no-var-requires": "off"
   }

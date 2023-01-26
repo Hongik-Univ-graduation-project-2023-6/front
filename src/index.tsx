@@ -1,4 +1,4 @@
-import React from 'react';
+import GlobalStyle from './GlobalStyle';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 
@@ -9,4 +9,9 @@ if (!rootNode) {
 }
 
 const root = ReactDOM.createRoot(rootNode);
-root.render(<App />);
+root.render(
+  <>
+    <GlobalStyle />
+    <App />
+  </>,
+);
