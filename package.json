@@ -1,0 +1,39 @@
+{
+  "name": "graduation-project",
+  "version": "0.1.0",
+  "description": "This is graduation project application",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dongtimes2",
+  "license": "CC BY NC ND",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.32.0",
+    "eslint-config-standard-with-typescript": "^32.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.1",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.7.0"
+  }
+}
